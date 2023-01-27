@@ -36,5 +36,6 @@ def cube(num_1):
 def reverse_string(string):
     return string[::-1]
 
-def celsius(temp):
-    return (float(temp) - 32) / 1.8
+def fahrenheit_to_celsius(fahrenheit):
+    celsius = (fahrenheit - 32) / 1.8
+    return round(celsius, 2)
